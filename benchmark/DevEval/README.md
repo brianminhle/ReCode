@@ -95,8 +95,6 @@ The arguments are explained as follows.
 - `k`: the k value in Pass@k.
 
 
-***Important UPDATE for Hydra*** To compute the Pass@k (k = 1,3,5) for the generated code, you can run the command below:
-
 ```
 cd benchmark/DevEval
 
