@@ -8,14 +8,6 @@
 
 </div>
 
-# Important UPDATE with HyDra: 
-For easier implementation in our HyDra paper, we have adjusted the author's code by changing some commands. After successfully setting up the environment and dependencies, all necessary steps to compute pass@k and DIR are integrated into `benchmark/RepoExec/execution-code-eval/run.py`. You only need to provide the `--gendir` argument (the folder containing `RepoExec.final.generated.jsonl`; with our configuration, the default is `data/generation/RepoExec`):
-
-```
-cd execution_code_eval
-python run.py --gendir <path_to_generated_folder>  # (OPTIONAL, default is ../../../data generation/RepoExec)
-```
-
 # Introduction
 RepoExec is a novel benchmark designed to evaluate code generation at the repository level with a focus on executability and correctness. This benchmark addresses the gaps in existing systems by emphasizing real-world applicability and providing a comprehensive assessment of code functionality. It aims to provide a comprehensive evaluation of code functionality and alignment with developer intent, paving the way for more reliable and applicable CodeLLMs in real-world scenarios.
 
